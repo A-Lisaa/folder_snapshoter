@@ -93,7 +93,7 @@ def scan_folder(folder_path: str | PathLike | DirEntry) -> Folder:
 
 
 def main():
-    result = scan_folder("S:\\11 класс\\22.12.15")
+    result = scan_folder(".")
     print(json.dumps(asdict(result), indent=4))
 
 
